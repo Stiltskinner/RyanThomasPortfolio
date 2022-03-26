@@ -1,7 +1,102 @@
+/* variables */
+:root {
+  --dgray: #303438;
+  --eggshell: #f7f9fc;
+  --lblue: rgb(121, 174, 196);
+}
+
 /* Universal */
 
 * {
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab", "Roboto", serif;
+  color:var(--dgray);
+  background-color:var(--eggshell);
+}
+
+/* body */
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-size:14px;
+  width:100%;
+  flex-wrap: wrap;
 }
 
 /* headers */
+
+.blueback {
+  background-color: var(--lblue);
+}
+
+h1 {
+  font-size:275%;
+}
+
+h2 {
+  font-size:200%;
+}
+
+/* main */
+
+main {
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  align-items: center;
+}
+
+main p {
+  text-indent:1cm;
+}
+
+main .sidebar {
+  display:flex;
+  width:15%;
+  border-style:solid;
+  border-left:none;
+  border-top:none;
+  border-bottom:none;
+  border: right 5px;
+  border-color:var(--dgray);
+  justify-content:end;
+  padding-right:8px;
+}
+
+main .content {
+  display:flex;
+  width:15%;
+  justify-content:left;
+  padding-left:14px;
+}
+
+main .project-links {
+  display:relative;
+}
+
+main .project-links .bigproject {
+  display:relative;
+  flex: 1 1 400px;
+}
+
+main .project-links .bigproject img {
+    max-width: 100%;
+  }
+
+  main .project-links .project {
+    display:relative;
+    flex: 1 1 200px;
+  }
+
+  main .project-links .project img {
+    max-width:50%;
+  }
+
+  /* section IDs*/
+
+#section1 {
+  display:flex;
+  position:relative;
+  flex-wrap:wrap;
+  flex-direction:row;
+}
