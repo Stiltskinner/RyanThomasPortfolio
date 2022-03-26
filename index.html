@@ -31,15 +31,74 @@
     </div>
   </header>
 
-  <section class="hero">
+<!-- hero class will need a banner image to go on every page of the site, for now just one page -->
+
+  <div class="hero">
     <div class="blueback">
-      <h2>Insert Subtitle Here</h2>
+
+      <!-- class bot-right should move the element to the bottom right of the section -->
+
+      <h2 class="blueback bot-right">Insert Subtitle Here</h2>
     </div>
-  </section>
+  </div>
 
   <main>
 
+    <!-- section1 will include About me in the sidebar and 2 paragraphs of bio text on the right -->
+
+    <section id="section1">
+
+      <!-- class sidebar should place a flexbox on the left side of the page with some margins. it should have a dark blue border on the right only -->
+
+      <div class="sidebar">
+
+<!-- class top-right should place the element in the top-right of its container -->
+
+        <h1 class="top-right">About Me</h1>
+      </div>
+      <div>
+        <p>
+          Roof party copper mug hella unicorn pitchfork YOLO blue bottle humblebrag church-key PBR&B. Man braid bespoke pickled live-edge cliche tofu prism forage vape salvia tumblr offal intelligentsia before they sold out. Aesthetic pitchfork banh mi 3 wolf moon echo park. Iceland pitchfork VHS vice shoreditch small batch franzen occupy hot chicken listicle tattooed scenester squid helvetica snackwave. Sustainable art party letterpress freegan hella, raw denim tattooed neutra tote bag lomo. Keytar man bun shabby chic literally photo booth direct trade chillwave wayfarers tacos fashion axe meditation scenester gochujang try-hard.
+
+          XOXO gastropub williamsburg brooklyn. Church-key ramps four dollar toast, kale chips pop-up freegan celiac tumeric raclette glossier keytar gochujang gluten-free small batch knausgaard. Street art whatever affogato waistcoat, pinterest cliche helvetica locavore bushwick +1 tumeric. Cray meh 3 wolf moon readymade, bespoke live-edge paleo cornhole. Cardigan DIY gluten-free tattooed, yuccie portland dreamcatcher.
+        </p>
+      </div>  
+
+    </section>
+
+    <!-- section2 will include 'Work' ion the sidebar, with 1 large box and 4 smaller boxes with links to projects on the right side, for now it will have placeholder images -->
+
+    <section id="section2">
+      <div class="sidebar">
+        <h1 class="top-right">Work</h1>
+      </div>
+      <!-- class bigproject should create a flexbox that takes up all horizontal space for its height, this is for the main project I want to highlight -->
+      <div class="bigproject">
+        <img src="./Assets/images/placeholderbigproject.jpg" alt="Aerial image of a town with several houses and a cathedral" />
+      </div>
+      <!-- class project should take up half the width for its height, this for the 4 smaller projects. -->
+      <div class="project">
+        <img src="./Assets/images/placeholderproject1.jpg" alt="black and white, profile of a person holding a mic facing a crowd on stage" />
+      </div>
+      <div class="project">
+        <img src="./Assets/images/placeholderproject2.jpg" alt="a pizza with sliced strawberries on it and two hands above the pizza holding herbs" />
+      </div>
+      <div class="project">
+        <img src="./Assets/images/placeholderproject3.jpg" alt="a man with dreadlocks and a beard standing between two motorcycles with a hand on each motorcycle" />
+      </div>
+      <div class="project">
+        <img src="./Assets/images/placeholderproject4.jpg" alt="a cat sitting on a bed next to a laptop" />
+      </div>
+      
+    </section>
+
+    <!-- section3 will include 'contact me' in the sidebar with 5 links, including github, linkedin, email, resume -->
+
+    <section id="section3">
+      <div class="sidebar">
+        <h1 class="top-right">Contact Me</h1>
+      </div>
+
+    </section>
   </main>
-  <footer>
-  </footer>
 </body>
