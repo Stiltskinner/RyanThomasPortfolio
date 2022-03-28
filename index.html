@@ -18,10 +18,10 @@
       <!-- bluetext class should have light blue text w/gray background. row class should put items in a row with no bullet points -->
         <nav class="bluetext row">
             <ul>
-              <li><a class="bluetext" href="#">About Me</a></li>
-              <li><a class="bluetext" href="#">Work</a></li>
-              <li><a class="bluetext" href="#">Contact Me</a></li>
-              <li><a class="bluetext" href="#">Resume</a></li>
+              <li><a class="bluetext" href="#AboutMe">About Me</a></li>
+              <li><a class="bluetext" href="#Work">Work</a></li>
+              <li><a class="bluetext" href="#ContactMe">Contact Me</a></li>
+              <li><a class="bluetext" href="./Assets/Ryan Thomas Resume 12_30_21.pdf" download>Resume</a></li>
             </ul>
         </nav>
   </header>
@@ -44,7 +44,7 @@
 
 <!-- class top-right should place the element in the top-right of its container -->
 
-        <h1 class="top-right">About Me</h1>
+        <h1 class="top-right" id="AboutMe">About Me</h1>
       </aside>
       <div class="content column">
         <p>
@@ -62,27 +62,26 @@
 
     <section id="section2">
       <aside>
-        <h1 class="top-right">Work</h1>
+        <h1 class="top-right" id="Work">Work</h1>
       </aside>
       <!-- class bigproject should create a flexbox that takes up all horizontal space for its height, this is for the main project I want to highlight -->
       <!-- all these images need alt text -->
       <section class="content project-links row">
-        <div class="bigproject">
+        <a class="bigproject" href="https://github.com/Stiltskinner"><div class="textlinks">Cold Fusion</div>
           <img class="blueborder" src="./Assets/images/placeholderbigproject.jpg" alt="needs alt text" />
-        </div>
-        <!-- class project should take up half the width for its height, this for the 4 smaller projects. -->
-        <div class="project">
+        </a>
+        <a class="project" href="https://github.com/Stiltskinner"><div class="textlinks">Cure for COVID</div>
           <img class="blueborder" src="./Assets/images/placeholderproject1.jpg" alt="needs alt text" />
-        </div>
-        <div class="project">
+        </a>
+        <a class="project" href="https://github.com/Stiltskinner"><div class="textlinks">Super Jumpy Bionic Legs</div>
           <img class="blueborder" src="./Assets/images/placeholderproject2.jpg" alt="needs alt text" />
-        </div>
-        <div class="project">
+        </a>
+        <a class="project" href="https://github.com/Stiltskinner"><div class="textlinks">Google but Better</div>
           <img class="blueborder" src="./Assets/images/placeholderproject3.jpg" alt="needs alt text" />
-        </div>
-        <div class="project">
+        </a>
+        <a class="project" href="https://github.com/Stiltskinner"><div class="textlinks">Half Life 3</div>
           <img class="blueborder" src="./Assets/images/placeholderproject4.jpg" alt="needs alt text" />
-        </div>
+        </a>
       </section>
             
     </section>
@@ -91,7 +90,7 @@
   </main>
     <footer class="row">
       <aside>
-        <h1>Contact Me</h1>
+        <h1 id="ContactMe">Contact Me</h1>
       </aside>
       <nav class="content">
         <ul>
