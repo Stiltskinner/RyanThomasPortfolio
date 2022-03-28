@@ -1,3 +1,6 @@
+## Collaborators 
+Danny Yates-His code helped me understand how to put an anchor tag around a div, so that I could make an image with text into a link
+
 This is my first draft of a portfolio website. Currently, it includes placeholders for projects (under the work section), and placeholder links in the top-right nav-bar.
 
 It has the basic layout completed, although it needs some adjustments that I will make once I learn more about using flexboxes properly. It still needs to have @media queries for different screen sizes, as well as titles for the placeholder "projects."

@@ -11,6 +11,7 @@
   font-family: "Roboto Slab", "Roboto", serif;
   color:var(--dgray);
   background-color:var(--eggshell);
+  box-sizing: border-box;
 }
 
 /* body */
@@ -21,6 +22,7 @@ body {
   font-size:14px;
   width:100%;
   flex-wrap: wrap;
+  margin:0;
 }
 
 h1 {
@@ -44,7 +46,8 @@ header {
 header nav {
   display:flex;
   background-color: var(--dgray);
-  padding-left:65%;
+  width:80%;
+  justify-content: flex-end;
 }
 
 header ul {
@@ -67,6 +70,7 @@ header h1 {
   position:relative;
   padding-left:2%;
   justify-content: flex-start;
+  width:20%;
 }
 
 header h2 {
@@ -127,18 +131,17 @@ main {
   align-items: center;
 }
 
-main {
-  display:flex;
-  flex-wrap:wrap;
-  flex-direction:row;
-  align-items: center;
-}
-
 main p {
   text-indent:1cm;
 }
 
-main .sidebar {
+main .hotlinks {
+  text-indent:none;
+  margin:0;
+  padding:0;
+}
+
+aside {
   display:flex;
   width:15%;
   border-style:solid;
@@ -158,6 +161,11 @@ main .sidebar {
   justify-content:flex-start;
   align-items: vertical;
   padding-left:14px;
+}
+
+main a {
+  margin:0;
+  padding:0;
 }
 
 main .project-links {
@@ -229,19 +237,6 @@ footer {
   flex-direction:row;
 }
 
-footer .sidebar {
-  display:flex;
-  width:15%;
-  border-style:solid;
-  border-left:none;
-  border-top:none;
-  border-bottom:none;
-  border: right 5px;
-  border-color:var(--dgray);
-  justify-content:end;
-  padding-right:8px;
-}
-
 footer nav {
   display:flex;
   width:84%;
@@ -270,15 +265,14 @@ footer ul li {
   padding:4px;
 }
 
-@media screen and (min-width: 768px) {
-  .code-card {
-      flex-direction: column;
-      flex-wrap:wrap;  
+@media screen and (max-width: 768px) {
+  h2 {
+      font-size:100%;
   }
   
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 992px) {
   .code-card {
       flex-direction: row;
       flex-wrap:wrap;
