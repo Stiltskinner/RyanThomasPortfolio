@@ -1,5 +1,5 @@
 ## Collaborators 
-Danny Yates-His code helped me understand how to put an anchor tag around a div, so that I could make an image with text into a link
+Danny Yates-His code helped me understand how to put an anchor tag around a div, so that I could make an image with text into a link. His github repo I referenced:https://github.com/cycoconutz/Portfolio
 
 This is my first draft of a portfolio website. Currently, it includes placeholders for projects (under the work section), and placeholder links in the top-right nav-bar.
 
