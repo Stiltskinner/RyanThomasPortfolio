@@ -228,13 +228,13 @@ main .project-links .bigproject img {
   main .project-links .project {
     display:relative;
     flex: 1 1 50em;
-    max-width:45%;
+    max-width:50%;
     margin-right:1em;
     justify-content:space-between;
   }
 
   main .project-links .project img {
-    width: 750px;
+    width: 800px;
     max-width: 100%;
     max-height:300px;
   object-fit:cover;
@@ -271,6 +271,7 @@ main .project-links .bigproject img {
 
 #project2 {
   justify-content:flex-end;
+  margin-right:0;
 }
 
 #project3 {
@@ -279,6 +280,7 @@ main .project-links .bigproject img {
 
 #project4 {
   justify-content:flex-end;
+  margin-right:0;
 }
 
 /* footer */
@@ -341,16 +343,38 @@ footer ul li {
     margin-top:1em;
   }
 
+  footer nav ul {
+    flex-direction:column;
+    width:fit-content
+  }
+
+  footer nav ul li {
+    margin-right:0;
+    padding:0;
+  }
+
+  aside h1{
+    font-size:150%;
+    padding-right:3px;
+    text-align:right;
+  }
+  
   
 }
 
-@media screen and (max-width: 992px) {
-  .code-card {
-      flex-direction: row;
-      flex-wrap:wrap;
-  }
+@media screen and (max-width: 911px) {
 
   .hero .textlinks {
     margin-top:2em;
+  }
+
+  .project-links {
+    flex-direction: column;
+    max-width:100%;
+  }
+
+  .project-links a {
+    flex-direction: column;
+    max-width:90%;
   }
 }
