@@ -179,8 +179,6 @@ aside {
   display:flex;
   width:80%;
   flex-wrap:wrap;
-  justify-content:flex-start;
-  align-items: vertical;
   padding-left:14px;
 }
 
@@ -191,6 +189,7 @@ main a {
 
 main .project-links {
   display:relative;
+  justify-content: flex-start;
 }
 
 main .project-links .textlinks{ 
@@ -203,9 +202,11 @@ margin-top:21px;
 margin-left:21px;
 }
 
+
 main .project-links .bigproject {
   display:relative;
-  flex: 1 1 65%;
+  flex: 1 1 100em;
+  max-width:100%;
 }
 
 main .project-links .bigproject img {
@@ -223,17 +224,22 @@ main .project-links .bigproject img {
     rgb(138, 102, 236);
 }
 
+
   main .project-links .project {
-    flex: 1 0 400px;
-    align-items:center;
+    display:relative;
+    flex: 1 1 50em;
+    max-width:45%;
+    margin-right:1em;
+    justify-content:space-between;
   }
 
   main .project-links .project img {
-    width:700px;
-    height:400px;
-    object-fit:cover;
-    overflow:hidden;
-    transition: all 0.3s ease-in-out;
+    width: 750px;
+    max-width: 100%;
+    max-height:300px;
+  object-fit:cover;
+  transition: all 0.3s ease-in-out;
+  overflow:hidden;
   }
 
   main .project-links .project img:hover {
@@ -257,6 +263,23 @@ main .project-links .bigproject img {
     flex-wrap:wrap;
     flex-direction:row;
   }
+
+/* Project IDs */
+#project1 {
+  justify-content:flex-start;
+}
+
+#project2 {
+  justify-content:flex-end;
+}
+
+#project3 {
+  justify-content:flex-start;
+}
+
+#project4 {
+  justify-content:flex-end;
+}
 
 /* footer */
 
