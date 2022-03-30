@@ -12,3 +12,9 @@ After that is the main section, which has a sidebar labeling the different secti
 After that, the Contact Me section has links to email me, to my github profile, and to my linkedin.
 
 There are media queries to resize various flexboxes and text and change flex direction from row to column for the navbars, as well as a few other tweaks to make it friendlier at a smaller size.
+
+URL to completed portfolio: https://stiltskinner.github.io/RyanThomasPortfolio/
+
+Below you will find a screenshot of the completed portfolio webpage.
+
+![Screenshot of webpage](./Assets/images/Portfolio%20Screenshot.png)
