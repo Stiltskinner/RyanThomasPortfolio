@@ -3,8 +3,12 @@ Danny Yates-His code helped me understand how to put an anchor tag around a div,
 
 This is my first draft of a portfolio website. Currently, it includes placeholders for projects (under the work section), and placeholder links in the top-right nav-bar.
 
-It has the basic layout completed, although it needs some adjustments that I will make once I learn more about using flexboxes properly. It still needs to have @media queries for different screen sizes, as well as titles for the placeholder "projects."
+The top features a header with my name and a navbar that includes internal links to the about me section, the work section, and the contact me section. It also has a resume link that downloads my resume.
 
-It contains links to my github profile, linkedin, and email.
+Below that is a hero with a banner image. This is a placeholder until I get a good horizontal picture with myself taking up a small portion of the left side of the frame
 
-It has basic animation on hovering over each project to add a box shadow.
+After that is the main section, which has a sidebar labeling the different sections (About Me, Work, and Contact Me). To the right of each aside in those sections is a filler text to be replaced with my bio, several placeholder images inside anchors that link to my github. These will eventually be replaced with actual projects I completed. These images have a shadow glow animation on mouse hover.
+
+After that, the Contact Me section has links to email me, to my github profile, and to my linkedin.
+
+There are media queries to resize various flexboxes and text and change flex direction from row to column for the navbars, as well as a few other tweaks to make it friendlier at a smaller size.
