@@ -90,7 +90,7 @@ header h4 {
     object-fit:cover;
 }
 
-.hero img {
+.hero .banner {
   display:flex;
   width: 200em;
   max-width:100%;
@@ -110,6 +110,19 @@ header h4 {
   padding:5px 10px;
   margin-left:80%;
   margin-top:6em;
+}
+
+.hero .profile {
+  position:absolute;
+  background-color: var(--lblue);
+}
+
+.hero .profile img {
+  position:absolute;
+  object-fit: scale-down;
+  height:16.1em;
+  margin-bottom: 10em;
+  background-color: var(--lblue);
 }
 
 /* Text Colors */
